@@ -33,3 +33,16 @@ h3 {
     font-size: 600%;
     color: rgb(27, 75, 27);
 }
+
+/* navigation links - same as running */
+
+#nav-bar {
+    font-size: 400%;
+    font-weight: bolder;
+}
+
+#nav-bar li {
+    float: right;
+    list-style-type: none;
+    margin-right: 50px;
+}
