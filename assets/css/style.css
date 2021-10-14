@@ -290,10 +290,11 @@ footer>p {
     background-color: rgb(27, 75, 27);
     width: 100%;
     color:whitesmoke;
+    list-style: none;
 }
 
 .footer-contacts {
-    font-size: 150%;
+    font-size: 170%;
     color:rgba(224, 32, 70, 255);
     font-family: Montserrat, sans-serif;
     float: center;
@@ -306,10 +307,30 @@ footer>p {
     display: flex;
     flex-direction:row;
     flex: content;
+    word-spacing: 25%;
+    font-stretch: extra-expanded;
 }
 
+#menu ul li a {
+	z-index: 5;
+	position: relative;
+    float:left;
+	display: inline;
+	height: 31px;
+	overflow: hidden;
+	text-decoration: none;
+  color:#336699;
+  font-size: 20px;
+  margin: 0;
+  padding:0
+}
+
+
+
+
+
 .footer-copyright {
-    font-size: 200%;
+    font-size: 160%;
     color:rgba(224, 32, 70, 255);
     font-family: Montserrat, sans-serif;
     float: center;
