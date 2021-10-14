@@ -12,3 +12,24 @@ body {
     color: darkslategray
     background-color: #f8f8f8;
 }
+
+/* headings and logo */
+
+h1,
+h2 {
+    font-family: Montserrat, sans-serif;
+    text-transform: uppercase;
+    color: rgba(224, 32, 70, 255);
+    /* color: rgb(243, 132, 4); */
+    /* color:rgb(27, 75, 27); */
+}
+
+h3 {
+    color: white;
+}
+
+#logo {
+    float: left;
+    font-size: 600%;
+    color: rgb(27, 75, 27);
+}
