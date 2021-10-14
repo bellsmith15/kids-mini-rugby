@@ -158,3 +158,49 @@ h3 {
     /* color: whitesmoke; */
     font: bold;
 }
+
+/* Table of Dates and Times - from code institute*/
+
+#groups {
+    height: 1600%;
+    width: 40%;
+}
+
+.groups-style {
+    margin: 0 auto 0 auto;
+    font-size: 500%;
+    top: 3800px;
+    left: 1050px;
+    position: absolute;
+    background-color: rgb(27, 75, 27);
+    color: whitesmoke;
+    /* background-color: rgba(224,32,70,255); */
+}
+
+
+*/ table {
+    padding-left: 50px;
+    width: 99%;
+    height: 100%;
+}
+
+tr {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+tr,
+th,
+td {
+    text-align: center;
+}
+
+th {
+    font: bolder;
+}
+
+th,
+td {
+    border: 1px solid rgba(224, 32, 70, 255);
+    padding: 5px;
+}
