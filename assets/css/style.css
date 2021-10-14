@@ -293,20 +293,19 @@ footer>p {
 }
 
 .footer-contacts {
-    font-size: 200%;
+    font-size: 150%;
     color:rgba(224, 32, 70, 255);
     font-family: Montserrat, sans-serif;
-    list-style-type: circle;
     float: center;
-    top: 10150px;
+    top: 388%;
+    /* top: 10500px; */
     left: 2400px;
     position: absolute;
     transform: scale(200%);
     font-weight: bolder;
     display: flex;
-    font-stretch:extra-expanded;
     flex-direction:row;
-    /* word-spacing: 35px; */
+    flex: content;
 }
 
 .footer-copyright {
@@ -314,7 +313,8 @@ footer>p {
     color:rgba(224, 32, 70, 255);
     font-family: Montserrat, sans-serif;
     float: center;
-    top: 10300px;
+    top: 391%;
+    /* top: 10600px; */
     left: 2400px;
     position: absolute;
     transform: scale(200%);
