@@ -241,3 +241,32 @@ td {
     font-size: 50px;
     margin-bottom: 5px;
 }
+
+/* About Us */
+
+#Who-are-we {
+    height: 800px;
+    padding-top: 50px;
+    width: 90%;
+    float: left;
+    margin-left: 100px;
+    font-size: 280%;
+}
+
+#What-do-we-do {
+    height: 800px;
+    padding-top: 75px;
+    width: 90%;
+    float: left;
+    margin-left: 100px;
+    font-size: 280%;
+}
+
+#Coaching {
+    height: 800px;
+    padding-top: 125px;
+    width: 90%;
+    float: left;
+    margin-left: 100px;
+    font-size: 280%;
+}
