@@ -280,10 +280,46 @@ td {
 
 /* Footer and Social Media - Socials from Love Running FontAwesome Code to run them */
 
-footer>p {
+footer{
+    height: 150px;
+    background-color: rgb(27, 75, 27);
+    color:whitesmoke;
+}
+
+.footer-style {
+    text-align: center;
+}
+
+.footer-style>p {
+    text-align: center;
+}
+
+.footer-copyright {
+    text-align: center;
+}
+
+.footer-style a {
+    color:whitesmoke;
+    word-spacing: 5px;
+}
+
+.footer-style a :hover {
+    color:rgba(224, 32, 70, 255);
+}
+
+
+.footer-style li {
+    display: inline;
+}
+
+#map-link :hover {
+    color:rgba(224, 32, 70, 255);
+}
+
+
+/* footer>p {
     height: 200px;
     bottom: 5px;
-    /* margin-bottom: 5px; */
 }
 
 .footer-main {
@@ -299,7 +335,6 @@ footer>p {
     font-family: Montserrat, sans-serif;
     float: center;
     top: 388%;
-    /* top: 10500px; */
     left: 2400px;
     position: absolute;
     transform: scale(200%);
@@ -335,12 +370,10 @@ footer>p {
     font-family: Montserrat, sans-serif;
     float: center;
     top: 391%;
-    /* top: 10600px; */
     left: 2400px;
     position: absolute;
     transform: scale(200%);
     font-weight: bolder;
-    /* text-decoration: none; */
 }
 
 
@@ -362,9 +395,7 @@ footer>p {
     margin: 1%;
     padding: 5%;
     color: rgba(224, 32, 70, 255);
-    /* color: rgb(223, 21, 21); */
-    /* color: rgb(243, 132, 4); */
-}
+} */
 
 /* About Us */
 
