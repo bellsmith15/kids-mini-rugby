@@ -366,3 +366,49 @@ footer>p {
     /* color: rgb(243, 132, 4); */
 }
 
+/* About Us */
+
+#Who-are-we {
+    height: 800px;
+    padding-top: 50px;
+    width: 90%;
+    float: left;
+    margin-left: 100px;
+    font-size: 280%;
+}
+
+#What-do-we-do {
+    height: 800px;
+    padding-top: 75px;
+    width: 90%;
+    float: left;
+    margin-left: 100px;
+    font-size: 280%;
+}
+
+#Coaching {
+    height: 800px;
+    padding-top: 125px;
+    width: 90%;
+    float: left;
+    margin-left: 100px;
+    font-size: 280%;
+}
+
+/* gallery */
+
+#photos {
+    clear: both;
+    /*photo section appears below the header*/
+    line-height: 0;
+    /*removes the gaps between any images*/
+    column-count: 4;
+    /*secret source 4 columns for desktops 3 for tablets 2 for mobile if less than 4 pics available then choose 2*/
+    column-gap: 0;
+    /*removes a vertical gap*/
+}
+
+#photos>img {
+    width: 100%;
+    /*widths of images all set to 100%*/
+}
