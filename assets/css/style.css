@@ -387,7 +387,7 @@ footer{
     font-size: 280%;
 }
 
-/* gallery */
+/* gallery  same as code institute */
 
 #photos {
     clear: both;
@@ -481,3 +481,20 @@ footer{
 input[type=radio] {
     transform: scale(400%)
 }
+
+/* Media queries for responsiveness */
+/* For tablets screen size 1200 and below */
+    
+@media screen and (max-width: 1200px) {
+
+}
+
+/* For mobile screen size 950 and below */
+@media screen and (max-width: 950px) {
+
+}
+
+
+
+}
+
